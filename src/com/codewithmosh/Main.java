@@ -64,14 +64,101 @@ public class Main {
 //        String numbers2 = Arrays.toString(numbers);
 //        System.out.println(numbers2);
 
-        int[] numbers = {2, 3, 5, 1, 4};
-        String numbers2 = Arrays.toString(numbers);
-        System.out.println(numbers2);
+//        int[] numbers = {2, 3, 5, 1, 4};
+//        String numbers2 = Arrays.toString(numbers);
+//        System.out.println(numbers2);
+
+        /* Arrays sort 陣列排序 */
+//        int[] numbers = {2, 3, 5, 1, 4};
+//        Arrays.sort(numbers);
+//        System.out.println(Arrays.toString(numbers));
+
+        /* Multi-Dimensional Arrays  多維陣列 */
+//        int[][] numbers = new int[2][3];
+//        numbers[0][0] = 1;
+//        System.out.println(Arrays.deepToString(numbers));
+
+//        int[][] numbers = { {1, 2, 3} ,{ 4, 5, 6} };
+//        System.out.println(Arrays.deepToString(numbers));
+
+        /* Constants */
+//        final float PI = 3.14F;
+//        PI =1;
+
+        /* Arithmetic Expressions */
+//        int result = 10 + 3;
+//        System.out.println(result);
+//        int result = 10 - 3;
+//        System.out.println(result);
+//        int result = 10 * 3;
+//        System.out.println(result);
+//        int result = 10 / 3;
+//        System.out.println(result);
+
+//        Double result = (double)10 / (double)3;
+//        System.out.println(result);
+
+//        int x = 1;
+//        x++;
+//        System.out.println(x);
+//        int x = 1;
+//        ++x;
+//        System.out.println(x);
+
+
+//        int x = 1;
+//        int y = x++;
+//        System.out.println(x);
+//        System.out.println(y);
+
+//        int x = 1;
+//        int y = ++x;
+//        System.out.println(x);
+//        System.out.println(y);
+
+//        int x = 1;
+//        x = x + 2;
+//        System.out.println(x);
+//        int x = 1;
+//        x += 2;
+//        System.out.println(x);
+
+        /* Order of Operations */
+        /* Casting 轉型 */
+
+        /* implicit casting 隱式轉換 or 自動轉換 */
+        /* byte > short > int > long > float > double */
+//        short x = 1;
+//        int y = x + 2;
+//        System.out.println(y);
+
+//        double x = 1.1;
+//        double y = x + 2;
+//        System.out.println(y);
+
+        /* explicit casting 顯式轉換 */
+//        double x = 1.1;
+//        int y = (int)x + 2;
+//        System.out.println(y);
+
+
+        /* String字串如何轉型 */
+//        String x = "1";
+//        int y = Integer.parseInt(x) + 2;
+//        System.out.println(y);
+
+//        String x = "1.1";
+//        double y = Double.parseDouble(x) + 2;
+//        System.out.println(y);
+
+        /* The Math Class  */
 
 
 
 
-        /* Arrays */
+
+
+
         /* Arrays */
         /* Arrays */
 
