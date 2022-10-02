@@ -55,7 +55,7 @@ public class Main {
 //        String message = "c:\twindows\\work";
 //        System.out.println(message);
 
-        /* Arrays */
+        /* Arrays 陣列操作 */
 //        int number = 1;
 //        int[] numbers = new int[5];
 //        numbers[0] = 1;
@@ -64,7 +64,9 @@ public class Main {
 //        String numbers2 = Arrays.toString(numbers);
 //        System.out.println(numbers2);
 
-        
+        int[] numbers = {2, 3, 5, 1, 4};
+        String numbers2 = Arrays.toString(numbers);
+        System.out.println(numbers2);
 
 
 
