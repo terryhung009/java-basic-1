@@ -152,7 +152,14 @@ public class Main {
 //        System.out.println(y);
 
         /* The Math Class  */
+//        int result = Math.round(1.1F);
+//        System.out.println(result);
 
+//        int result = (int)Math.ceil(1.1F);
+//        System.out.println(result);
+
+        int result = (int)Math.floor(1.1F);
+        System.out.println(result);
 
 
 
