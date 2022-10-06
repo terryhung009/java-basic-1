@@ -212,6 +212,17 @@ public class Main {
 
         /* Project: Mortgage Calculator */
 
+        /* Solution: Mortgage Calculator  */
+
+        final byte MONTHS_IN_YEAR = 12;
+        final byte PERCENT = 100;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Principal: ");
+        float annualInterest = scanner.nextFloat();
+        float monthlyInterest = annualInterest / PERCENT /MONTHS_IN_YEAR;
+
 
 
 
