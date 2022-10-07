@@ -214,14 +214,46 @@ public class Main {
 
         /* Solution: Mortgage Calculator  */
 
-        final byte MONTHS_IN_YEAR = 12;
-        final byte PERCENT = 100;
+        // final byte MONTHS_IN_YEAR = 12;
+        // final byte PERCENT = 100;
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Principal: ");
-        float annualInterest = scanner.nextFloat();
-        float monthlyInterest = annualInterest / PERCENT /MONTHS_IN_YEAR;
+        // System.out.println("Principal:  ");
+        // int principal = scanner.nextInt();
+
+
+        // System.out.println("Annual Interest Rate:  ");
+        // float annualInterest = scanner.nextFloat();
+        // float monthlyInterest = annualInterest / PERCENT /MONTHS_IN_YEAR;
+
+        // System.out.println("Period (Years):  ");
+        // byte years = scanner.nextByte();
+        // int numberOfPayments = years * MONTHS_IN_YEAR;
+
+        // double  mortgage = principal
+        //         * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
+        //         / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
+
+        // String mortgageFormatted = NumberFormat.getCurrencyInstance();
+        // System.out.println("Mortgage: " + mortgageFormatted);
+
+        /*  Summary  */
+
+        /*  Control Flow   */
+
+        /*  Comparison Operators    */
+        int x = 1;
+        int y = 1;
+        System.out.println(x == y);
+        System.out.println(x != y);
+        System.out.println(x > y);
+        System.out.println(x >= y);
+        System.out.println(x < y);
+        System.out.println(x <= y);
+
+        /*  Logical Operators    */
+
 
 
 
