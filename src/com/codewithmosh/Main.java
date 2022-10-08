@@ -270,7 +270,81 @@ public class Main {
 //
 //        /*  If Statements    */
     	
-    	
+//    	  int temp = 32;
+//        if (temp > 30){
+//            System.out.println("It's out day");
+//            System.out.println("Drink water");
+//        }else if(temp >20 && temp <= 30){
+//            System.out.println("Beautiful Day");
+//        }else{
+//            System.out.println("Cold Day");
+//        }
+
+        /*  Simplifying If Statements    */
+
+//        int income = 120_000;
+//        boolean hasHighIncome;
+//        if(income > 100_000) {
+//            hasHighIncome = true;
+//        }else{
+//            hasHighIncome = false;
+//        }
+//        System.out.println(hasHighIncome);
+
+
+//        int income = 120_000;
+//        boolean hasHighIncome = (income > 100_000);
+//
+//        System.out.println(hasHighIncome);
+
+        /*  The Ternary Operator    */
+//        int income = 120_000;
+//        String className;
+//        if(income > 100_000)
+//            className = "First";
+//        else
+//            className = "Economy";
+
+//        int income = 120_000;
+//        String className = "Economy";
+//        if(income > 100_000)
+//            className = "First";
+
+//        int income = 120_000;
+//        String className = income > 100_000 ? "First" : "Economy" ;
+//        System.out.println(className);
+
+        /* Switch Statements */
+//        String role = "admin";
+//        if (role == "admin"){
+//            System.out.println("You're an admin");
+//        }else if(role == "moderator"){
+//            System.out.println("You're a moderator");
+//        }else{
+//            System.out.println("You're a guest");
+//        }
+
+//        String role = "admin";
+//        switch (role){
+//            case "admin" :
+//                System.out.println("You're an admin");
+//                break;
+//            case "moderator" :
+//                System.out.println("You're a moderator");
+//                break;
+//            default:
+//                System.out.println("You're a guest");
+//        }
+
+        /* Exercise: FizzBuzz */
+
+
+
+
+
+
+
+
 
 
 
