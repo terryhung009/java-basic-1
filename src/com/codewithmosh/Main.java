@@ -338,6 +338,94 @@ public class Main {
 
         /* Exercise: FizzBuzz */
 
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Number: ");
+//        int number = scanner.nextInt();
+//
+//        if (number % 5 == 0){
+//            System.out.println("Fizz");
+//        }else if(number % 3 == 0){
+//            System.out.println("Buzz");
+//        }else if(number % 5 == 0 && number % 3 == 0){
+//            System.out.println("FizzBuzz");
+//        }else{
+//            System.out.println(number);
+//        }
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Number: ");
+//        int number = scanner.nextInt();
+//
+//        if(number % 5 == 0 && number % 3 == 0){
+//            System.out.println("FizzBuzz");
+//        }
+//        else if (number % 5 == 0){
+//            System.out.println("Fizz");
+//        }
+//        else if(number % 3 == 0){
+//            System.out.println("Buzz");
+//        }
+//        else {
+//            System.out.println(number);
+//        }
+
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Number: ");
+//        int number = scanner.nextInt();
+//
+//        if(number % 5 == 0 ){
+//            if(number % 3 == 0){
+//                System.out.println("FizzBuzz");
+//            }else{
+//                System.out.println("Fizz");
+//            }
+//
+//        }
+//        else if(number % 3 == 0){
+//            System.out.println("Buzz");
+//        }
+//        else {
+//            System.out.println(number);
+//        }
+
+        /* For Loops */
+
+//        for (int i = 0; i < 5; i++){
+//            System.out.println("Hello World!");
+//        }
+//        for (int i = 0; i < 5; i++){
+//            System.out.println("Hello World! " + i);
+//        }
+
+//        for (int i = 5; i > 0; i--){
+//            System.out.println("Hello World! " + i);
+//        }
+
+        /* While Loops */
+
+//        int i = 5;
+//        while(i > 0){
+//            System.out.println("Hello Wrold!" + i);
+//            i--;
+//        }
+
+        /* 這樣是錯的 */
+        //        while(input != "quit" ){
+//
+//        }
+        /* 這樣是錯的 */
+
+        String input = "";
+
+        Scanner scanner = new Scanner(System.in);
+        while(!input.equals("quit") ){
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+        }
+
+        /* do...while loops */
 
 
 
