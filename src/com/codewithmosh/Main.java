@@ -416,19 +416,134 @@ public class Main {
 //        }
         /* 這樣是錯的 */
 
-        String input = "";
-
-        Scanner scanner = new Scanner(System.in);
-        while(!input.equals("quit") ){
-            System.out.print("Input: ");
-            input = scanner.next().toLowerCase();
-            System.out.println(input);
-        }
+//        String input = "";
+//
+//        Scanner scanner = new Scanner(System.in);
+//        while(!input.equals("quit") ){
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            System.out.println(input);
+//        }
 
         /* do...while loops */
 
+//        do{
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            System.out.println(input);
+//
+//        }while(!input.equals("quit"));
+
+        /* Break and Continue */
+
+//        String input = "";
+//
+//        Scanner scanner = new Scanner(System.in);
+//        while(!input.equals("quit") ){
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if(!input.equals("quit")){
+//                System.out.println(input);
+//            }
+//
+//        }
+
+//        String input = "";
+//
+//        Scanner scanner = new Scanner(System.in);
+//        while(!input.equals("quit") ){
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if(input.equals("pass")){
+//                continue;
+//            }
+//            if(input.equals("quit")){
+//                break;
+//            }
+//            System.out.println(input);
+//        }
 
 
+//        Scanner scanner = new Scanner(System.in);
+//        String input = "";
+//        while(true) {
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if(input.equals("pass")){
+//                continue;
+//            }
+//            if(input.equals("quit")){
+//                break;
+//            }
+//            System.out.println(input);
+//        }
+        /* For-Each Loop */
+//        String[] fruits = { "Apple", "Mango" , "orange" };
+
+//        for (int i =0; i<fruits.length; i++){
+//            System.out.println(fruits[i]);
+//        }
+
+//        String[] fruits = { "Apple", "Mango" , "orange" };
+//        for(String fruit: fruits){
+//            System.out.println(fruit);
+//        }
+
+        /* Project: Mortgage Calculator */
+
+        /* Solution: Mortgage Calculator */
+
+//         final byte MONTHS_IN_YEAR = 12;
+//         final byte PERCENT = 100;
+//
+//        int principal = 0;
+//        float monthlyInterest = 0;
+//        int numberOfPayments = 0;
+//
+//         Scanner scanner = new Scanner(System.in);
+//
+//         while(true){
+//             System.out.println("Principal:  ");
+//             principal = scanner.nextInt();
+//             if(principal >= 1000 && principal <= 1_000_000){
+//                 break;
+//             }
+//             System.out.println("Enter a value between 1000 and 1000000");
+//         }
+//
+//
+//        while(true){
+//            System.out.println("Annual Interest Rate:  ");
+//            float annualInterest = scanner.nextFloat();
+//            if(annualInterest >=1 && annualInterest <= 30){
+//                monthlyInterest = annualInterest / PERCENT /MONTHS_IN_YEAR;
+//                break;
+//            }
+//            System.out.println("Enter a value between 1 and 30");
+//
+//        }
+//
+//        while(true){
+//            System.out.println("Period (Years):  ");
+//            byte years = scanner.nextByte();
+//            if(years >= 1 && years <= 30){
+//                numberOfPayments = years * MONTHS_IN_YEAR;
+//                break;
+//            }
+//            System.out.println("Enter a value between 1 and 30");
+//        }
+//
+//
+//         double  mortgage = principal
+//                 * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
+//                 / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
+//
+//         String mortgageFormatted = NumberFormat.getCurrencyInstance(mortgage);
+//         System.out.println("Mortgage: " + mortgageFormatted);
+
+        /* Summary */
+
+        /* Clean Coding */
 
 
 
